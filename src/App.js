@@ -9,14 +9,10 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element = {<Home/>}/>
-        
-        
+        <Route path="/" element={<Home />} />
       </Routes>
       <Routes>
-        <Route path="/" element = {<Cart/>}/>
-        
-        
+        <Route path="/" element={<Cart />} />
       </Routes>
 
       {/* <div>
